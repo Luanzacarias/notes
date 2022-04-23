@@ -16,8 +16,8 @@
 
 ## 🔮Layout
 - Você pode conferir o design do projeto no [figma](https://figma.com/) clicando [aqui](https://www.figma.com/community/file/1099774546666132917).
-    [imagem](src/assets/app1.png)
-    [imagem](src/assets/app2.png)
+    ![imagem](src/assets/app1.png)
+    ![imagem](src/assets/app2.png)
     
 ## 🚀 Como executar
 Clone o projeto e acesse a pasta criada.
