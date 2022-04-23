@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #EFEFEF;
+    color: #363636;
+    min-width: 800px;
+    min-height: 600px;
+
+    -webkit-scrollbar {
+        width: 10px;              
+    }
+    -webkit-scrollbar-track {
+        background: #AFAFAF;        
+    }
+    -webkit-scrollbar-thumb {
+        background-color: #dfdfdf;    
+        border-radius: 20px;       
+        border: 2px solid #AFAFAF; 
+    }
+
+}
+body::-webkit-scrollbar {
+    width: 10px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #AFAFAF;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #dfdfdf;    
+    border-radius: 20px;       
+    border: 2px solid #AFAFAF; 
+  }
+
+body, button {
+    font: 500 14px 'Montserrat', sans-serif;
+}

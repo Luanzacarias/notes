@@ -1,0 +1,89 @@
+#note{
+    display: flex;
+    flex-direction: row;
+    max-width: 380px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+
+    .size {
+        width: 18px;
+        height: 18px;
+    }
+    .checkbox {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin: 0 24px;
+        padding: 1px;
+        border-radius: 6px;
+        border: 1px solid #efefef;
+
+        transition: filter 0.2s;
+    }
+    .checkbox:hover{
+        cursor: pointer;
+        filter: brightness(0.85);
+    }
+
+    .content {
+        padding: 12px 0;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-right: 5px;
+            h3{
+                font-size: 16px;
+                margin-bottom: 12px;
+            }
+            h4{
+                font: 700 12px 'Montserrat', sans-serif; 
+                margin-left: 12px;
+            }
+        }
+        
+        p{
+            font-size: 14px;
+            font-weight: 400
+        }
+
+    }
+    .finished {
+        color: #efefef;
+        text-decoration: line-through 2px solid;
+    }
+    > button{
+        background: transparent;
+        border: 0;
+        margin: 8px 8px 0 0;
+        align-self: flex-start;
+
+        transition: filter 0.2s;
+    }
+    > button:hover{
+        filter: brightness(0.7);
+        cursor: pointer;
+    }
+
+}
+.high{
+    background: #FB6868;
+}
+.medium{
+    background: #FF985C;
+}
+.low{
+    background: #46BEA6;
+}
+.backFinishedhigh{
+    background: desaturate($color: #FB6868, $amount: 25)
+}
+.backFinishedmedium{
+    background: desaturate($color: #FF985C, $amount: 25)
+}
+.backFinishedlow{
+    background: desaturate($color: #46BEA6, $amount: 25)
+}

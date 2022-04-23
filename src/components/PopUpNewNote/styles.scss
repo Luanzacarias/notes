@@ -1,0 +1,146 @@
+#popUpNewNote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0 , 0, 0, 0.5);
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px 32px;
+        background: #F8F8F8;
+        border-radius: 25px;
+
+        .closePopUp{
+            background: transparent;
+            border: 0;
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            align-self: flex-end;
+
+            transition: filter 0.2s;
+        }
+        .closePopUp:hover{
+            filter: brightness(0.7);
+            cursor: pointer;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 8px 32px 0;
+
+            h1{
+                font-size: 24px;
+                align-self: center;
+            }
+            
+            p{
+                font-size: 14px;
+                font-weight: 700;
+                margin: 12px 0 4px 2px;
+                
+            }
+            input{
+                width: 300px;
+                height: 36px;
+                border: 1px solid #CDCDCD;
+                border-radius: 8px;
+                padding: 0 8px;
+                color: #363636;
+                font: 500 12px 'Raleway', sans-serif;
+                letter-spacing: 0.015em;
+
+            }
+            input:focus {
+                outline: 0
+            }
+            .date {
+                width: 130px;
+            }
+            .date:hover {
+                cursor: text;
+            }
+            textarea{
+                padding: 8px;
+                width: 300px;
+                min-height: 48px;
+                max-height: 150px;
+                height: 96px;
+                border: 1px solid #CDCDCD;
+                border-radius: 8px;
+                resize: vertical;
+                color: #363636;
+                font: 500 12px 'Raleway', sans-serif;
+                letter-spacing: 0.015em;
+            }
+            textarea:focus {
+                outline: 0;
+            }
+            .valid {
+                border-color: #08CF10;
+            }
+            .invalid {
+                border-color: #FF2222
+            }
+
+            .buttons{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                margin-bottom: 24px;
+
+                .button{
+                    border: 0;
+                    padding: 8px 12px;
+                    border-radius: 20px;
+                    font-weight: 700;
+                    font-size: 12px;
+                    letter-spacing: 0.015em;
+                    color: #fff;
+
+                    transition: filter 0.2s;
+                }
+                .button:hover{
+                    filter: brightness(0.8);
+                    cursor: pointer;
+                }
+                .disabled{
+                    filter: brightness(0.6);
+                }
+
+            }
+
+            .submit{
+                align-self: center;
+                background: linear-gradient(112.73deg, #FA6666 -4.84%, #46BEA6 106.63%);
+                padding: 8px 12px;
+                color: #fff;
+                font-weight: 700;
+                border-radius: 8px;
+                border: 0;
+
+                transition: filter 0.2s;
+
+            }
+            .submit:hover{
+                filter: brightness(0.8);
+                cursor: pointer;
+            }
+            .submit:disabled{
+                filter: grayscale(1);
+                cursor: not-allowed;
+            }
+
+        }
+
+    }
+}

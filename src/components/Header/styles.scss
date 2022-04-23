@@ -1,0 +1,50 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 64px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #CDCDCD;
+    
+    .buttons {
+        display: flex;
+        gap: 24px;
+        flex-direction: row;
+
+        button {
+            height: 38px;
+            padding: 0 16px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 18px;
+            transition: filter 0.2s;
+        }
+        button:hover {
+            cursor: pointer;
+            filter:brightness(0.8)
+        }
+        a {
+            text-decoration: none;
+            color:unset;
+        }
+        .login {
+            background: transparent;
+            border: 2px solid #AFAFAF;
+            color: #363636;
+        }
+        .singUp {
+            background: #AFAFAF;    
+            border: 0;
+            color: #FFF;
+        }
+        .singOut {
+            
+            background: transparent;
+            border: 2px solid #AFAFAF;
+            color: #363636;
+            padding: 0 32px;
+            
+        }
+
+    }
+}

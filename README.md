@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+<p aling="center" >
+    <img alt="Logo Notes" src="./src/assets/logo.svg" widht="160px" style="background: white">
+    <img alt="Logo Notes" src="./src/assets/app1.png" widht="360px" style="background: white">
+    <img alt="Logo Notes" src="./src/assets/app2.png" widht="360px" style="background: white">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Notes
+- Esse projeto consiste em um site simples para organizar a sua lista de afazeres, podendo dividir as tarefas por 3 categorias. Cada usuário tem sua própria lista e o cadastro é feito com email e senha.
 
-## Available Scripts
+    Esse foi um projeto independente desenvolvido com a função de aprimorar os conhecimentos obtidos através de estudos e dúvidas sobre as tecnologias.
 
-In the project directory, you can run:
+## 🧪 Tecnologias
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Firebase V9](https://firebase.google.com/)
+- [TyoeScript](https://www.typescriptlang.org/)
+- [LottiFiles](https://lottiefiles.com/)
 
-### `yarn start`
+## 🔮Layout
+Você pode conferir o design do projeto no [figma](https://figma.com/) clicando [aqui](https://www.figma.com/community/file/1099774546666132917).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Como executar
+Clone o projeto e acesse a pasta criada.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+$ git clone https://github.com/Luanzacarias/notes.git
+$ cd notes
+```
 
-### `yarn test`
+Faça o download das dependências e start
+```bash
+# Install the dependencies
+$ yarn
+# Start the project
+$ yarn start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📄Detalhes
+- Será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database e Autenticação com email e senha. 
+- Além de preencher corretamente os dados necessários na pasta .env com os dados disponibilizados pelo [Firebase](https://firebase.google.com/) sobre seu projeto.

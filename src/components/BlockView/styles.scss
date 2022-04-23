@@ -1,0 +1,31 @@
+#block-view {
+    display: flex;
+    flex-direction: row;
+
+    .notes-box {
+        display: flex;
+        flex-direction: column;
+        padding: 0 29px;
+
+        > h3{
+            background: transparent;
+            font: 700 16px 'Raleway', sans-serif;
+            text-align: center;
+            margin-bottom: 32px
+        }
+        > .high {
+            color: #FB6868;
+        }
+        > .medium {
+            color: #FF985C;
+
+        }
+        > .low {
+            color: #46BEA6;
+        }
+    }
+    .border {
+        border-right: 3px dashed #CDCDCD ;
+    }
+
+}

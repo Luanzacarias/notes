@@ -1,0 +1,114 @@
+#login {
+    display: flex;
+    flex-direction: column;
+
+    main {
+        display: flex;
+        flex-direction: row;
+        padding: 32px 64px;
+        align-items: center;
+        justify-content: space-around;
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            > img {
+                width: 240px;
+                height: 245px;
+            }
+            h1 {
+                text-align: center;
+                letter-spacing: 0.015em;
+                font-weight: 700;
+                font-size: 42px;
+                padding: 0 16px;
+                margin-top: 32px;
+                // Efeito para o texto ficar com um linear gradiente na cor   
+                background: linear-gradient(112.73deg, #FB6868 -4.84%, #46BEA6 106.63%);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: transparent;
+            }
+            h3 {
+                text-align: center;
+                letter-spacing: 0.015em;
+                font-weight: 700;
+                font-size: 18px;
+                color: #A89085;
+                margin-top: 12px
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 0 16px;
+
+            p {
+                font-weight: 700;
+                font-size: 14px;
+                letter-spacing: 0.015em;
+                padding-left: 4px;
+                margin-top: 24px;
+            }
+            .errorMessage {
+                text-align: center;
+                font-size: 12px;
+                font-weight: 500;
+                color: #FF2222;
+            }
+            input {
+                height: 38px;
+                width: 300px;
+                background: #FEFEFE;
+                border: 1px solid #C4C4C4;
+                border-radius: 4px;
+                padding: 0 4px;
+                color: #363636;
+                font: 500 12px "Montserrat", sans-serif;
+                
+            }
+            input::placeholder{
+                color: #CDCDCD
+            }
+            input:focus {
+                outline: 1px solid black;
+                
+            }
+            a {
+                text-decoration: none;
+                font-size: 10px;
+                font-weight: 500;
+                color: #808080;
+                text-align: right;
+                margin-bottom: 24px;
+
+                transition: filter 0.2s;
+            }
+            a:hover {
+                cursor: pointer;
+                filter: brightness(0.8);
+            }
+            
+
+            button {
+                background: linear-gradient(112.73deg, #FB6868 -4.84%, #46BEA6 106.63%);
+                height: 38px;
+                width: fit-content;
+                padding: 0 16px;
+                border: 0;
+                border-radius: 8px;
+                color: #fff;
+                font-weight: 700;
+                font-size: 18px;
+                align-self: flex-end;
+            }
+            button:disabled{
+                filter: grayscale(1);
+                cursor: not-allowed;
+            }
+        }
+    } 
+}
