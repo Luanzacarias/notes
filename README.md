@@ -11,7 +11,7 @@
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
 - [Firebase V9](https://firebase.google.com/)
-- [TyoeScript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [LottiFiles](https://lottiefiles.com/)
 
 ## 🔮Layout
